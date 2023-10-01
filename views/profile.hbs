@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+ 
+ {{>navbar}}
+
+  <div class="container_Home">
+    <h2>User Profile</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWNTiq9IDokwKAKD68rWcfvb_790X2MOxIA&usqp=CAU" alt="">
+    <h3>Name : {{user.NAME}}</h3>
+    <h3>Email : {{user.EMAIL}}</h3>
+  </div>
+</body>
+</html>
